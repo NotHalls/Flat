@@ -1,0 +1,10 @@
+CompileFlags:
+  CompilationDatabase: Build/Clang-Debug
+---
+# No diagnostics for PCH headers, since they include a lot that isn't used in that file
+If:
+  # Path is relative to this .clangd file, so no leading "/"
+  # Matches Source/PCH.h, Source/Foo/MyPCH.h, etc.
+  PathMatch: */Source/.*PCH\.h
+Diagnostics:
+  UnusedIncludes: None # turns off the "unused include" warnings
