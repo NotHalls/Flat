@@ -1,7 +1,8 @@
 #pragma once
 
 // Flat //
-#include <Core/*.h>
+#include <Core/FAssert.h>
+#include <Core/FLog.h>
 
 // Base Includes //
 #include <iostream>
@@ -15,4 +16,5 @@
 #include <unordered_set>
 #include <vector>
 
-#include <Core/FAssert.h>
+// Mics //
+#include <memory>

@@ -1,6 +1,11 @@
 #include <print>
 
+#include <App/App.h>
+
 int main()
 {
-  std::println("Flat!");
+  Flat::App app("Flat", 600, 500);
+
+  app.Run();
+  app.Quit();
 }

@@ -10,6 +10,7 @@
 ## Builds And OUtputs
 **/[b/B]uild/
 **/[B/b]in/
+**/[B/b]inar[y/ies]/
 **/[B/b]in-[O/o]bjs/
 **/[L/l]ibs/
 CMakeFiles
